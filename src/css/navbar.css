@@ -86,7 +86,10 @@
     color: black;
 }
 
-@media (max-width:644px) {
+@media (max-width:768px) {
+    .Navbar{
+        width: 768px;
+    }
     .navbar-wrap {
         display: block;
     }
@@ -96,7 +99,7 @@
         display: flex;
         background: #121212;
         top: 7%;
-        right: 0;
+        width:200%;
         flex-direction: column;
         transition: .7s all ease;
         transform: translate3d(0, 0, 0);
@@ -107,7 +110,7 @@
         display: flex;
         background: #121212;
         top: 7%;
-        right: 0;
+        width:200%;
         flex-direction: column;
         transition: .7s all ease;
         transform: translate3d(0, -120%, 0);
@@ -125,7 +128,7 @@
 
     .nav-2 .mobile-nav-item {
         display: block;
-        position: absolute;
+        position: fixed;
         top: 16px;
         right: 20px;
     }
@@ -136,3 +139,5 @@
         z-index: 1000;
     }
 }
+
+  
